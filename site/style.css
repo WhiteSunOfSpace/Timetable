@@ -1,0 +1,44 @@
+.all_form{
+    background-color: white;
+}
+
+.Upper{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font: normal 35px sitka text semibold;
+    background-image: -webkit-linear-gradient(to bottom, rgb(40, 200, 40), rgb(40, 150, 40)); 
+    padding-top: 0%;
+    margin-top: 0%;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+.image{
+    margin-top: 2%;
+    margin-left: 0%;
+    width:max-content;
+}
+
+.input_form{
+    text-align: left;
+    width: 12.5%;
+    display:inline-block;
+    padding:10px 10px;
+    font: normal 15px sitka text semibold;
+    margin: 5px 0 0 6px;
+    margin-right: 2%
+}
+
+.button_form{
+    text-align: left;
+    height: 40px;
+    padding: 10px;
+    width: 150px;
+    background-image: -webkit-linear-gradient(left, rgb(40, 200, 40), rgb(40, 150, 40)); 
+    color: white;
+    font: normal 15px sitka text semibold;
+}
+
+
