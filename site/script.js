@@ -164,9 +164,9 @@ function isValid(a){
 };
 
 document.addEventListener('DOMContentLoaded', function() {
-    const changeColorBtn = document.getElementById('Посмотреть');
+    const ColorBtn = document.getElementById('Посмотреть');
     
-    changeColorBtn.addEventListener('click', function() {
+    ColorBtn.addEventListener('click', function() {
         
         var a = document.getElementById('field1').value.trim();
         var b = document.getElementById('field2').value.trim();
