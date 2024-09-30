@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var b = document.getElementById('field2').value.trim();
         
         var currentdate = new Date(); 
-        var hour = Number(currentdate.getHours()) + 3;
+        var hour = Number(currentdate.getHours());
         if (hour > 23){
             hour = hour - 24;
         }
